@@ -29,7 +29,7 @@ export default function About() {
                 {/* Profile Image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl auto-pulse" />
                 <div className="absolute inset-2 bg-slate-200 dark:bg-slate-700 rounded-xl overflow-hidden flex items-center justify-center">
-                  <img src="/Sanathjoshi.jpg" alt="Sanath Joshi" className="w-full h-full object-cover" />
+                  <img src={'${import.meta.env.BASE_URL}Sanathjoshi.jpg'} alt="Sanath Joshi" className="w-full h-full object-cover" />
                 </div>
 
                 {/* Decorative Elements */}
