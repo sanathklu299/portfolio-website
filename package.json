@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://YOUR_USERNAME.github.io/portfolio",
+  "homepage": "https://sanathklu299.github.io/portfolio-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
