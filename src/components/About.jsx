@@ -29,7 +29,7 @@ export default function About() {
                 {/* Profile Image */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl auto-pulse" />
                 <div className="absolute inset-2 bg-slate-200 dark:bg-slate-700 rounded-xl overflow-hidden flex items-center justify-center">
-                  <img src={'${import.meta.env.BASE_URL}Sanathjoshi.jpg'} alt="Sanath Joshi" className="w-full h-full object-cover" />
+                  <img src={'public/Sanathjoshi.jpg'} alt="Sanath Joshi" className="w-full h-full object-cover" />
                 </div>
 
                 {/* Decorative Elements */}
@@ -54,14 +54,14 @@ export default function About() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-                  I'm Jinkalwar Sanath Joshi, a final-year B.Tech (ECE) student at Koneru Lakshmaiah University
-                 with a CGPA of 9.11. I have a strong passion for technology and enjoy building modern
-                  applications that solve real-world problems.
+                I'm Jinkalwar Sanath Joshi, a final-year B.Tech (ECE) student at Koneru Lakshmaiah University
+                with a CGPA of 9.11. I have a strong passion for technology and enjoy building modern
+                applications that solve real-world problems.
               </p>
               <p className="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
-                 I specialize in Full-Stack Development and Data Science, with skills in Java, JavaScript, React,
-                 Next.js, MySQL, Python, SQL, Azure, Power BI, and Tableau. I'm always eager to explore new
-                 technologies, improve my problem-solving skills, and grow as a developer and data enthusiast.
+                I specialize in Full-Stack Development and Data Science, with skills in Java, JavaScript, React,
+                Next.js, MySQL, Python, SQL, Azure, Power BI, and Tableau. I'm always eager to explore new
+                technologies, improve my problem-solving skills, and grow as a developer and data enthusiast.
               </p>
 
             </motion.div>
